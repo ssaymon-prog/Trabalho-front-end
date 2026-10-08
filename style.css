@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+   scroll-padding-top: 80px;
 }
 
 body {
@@ -96,6 +97,10 @@ nav {
   align-items: center;
   gap: 8px;
   margin-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
 }
 
 nav a {
@@ -273,6 +278,10 @@ main {
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease;
+}
+
+section{
+   scroll-margin-top: 150px;
 }
 
 .card:hover {
